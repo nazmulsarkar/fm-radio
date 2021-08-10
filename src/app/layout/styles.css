@@ -1,0 +1,79 @@
+*{
+  font-family: 'Helvetica Neue',Arial,Helvetica,sans-serif!important;
+}
+
+body {
+  background-color: #EAEAEA !important;
+}
+
+.ui.inverted.top.fixed.menu {
+  background-image: linear-gradient(135deg, rgb(24,42,115) 0%, rgb(33, 138, 174) 69%, rgb(32,167,172) 89%) !important;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+/*home page styles*/
+
+.bg-color {
+  background-color: #21212b!important;
+}
+
+.bg-header-color{
+  background-color: #edad61!important;
+}
+
+.bg-footer-color{
+  background-color: #22222b!important;
+}
+
+.bg-content-color{
+  background-color: #292933!important;
+}
+
+.shadow {
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+}
+
+.text-color {
+  color: #a2abbd;
+}
+
+.masthead {
+  display: flex;
+  align-items: flex-start;
+  /* background-image: linear-gradient(
+          135deg,
+          rgb(24, 42, 115) 0%,
+          rgb(33, 138, 174) 69%,
+          rgb(32, 167, 172) 89%
+  ) !important; */
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.masthead h2 {
+  font-size: 33px;
+  font-weight: normal;
+}
+
+/*end home page styles*/

@@ -1,0 +1,29 @@
+{
+    "radioList": [
+        {
+            "id": 1,
+            "title": "Putin FM",
+            "frequency": "66.6"
+        },
+        {
+            "id": 1,
+            "title": "Dribbble FM",
+            "frequency": "101.2"
+        },
+        {
+            "id": 1,
+            "title": "Dodge FM",
+            "frequency": "99.4"
+        },
+        {
+            "id": 1,
+            "title": "Ballads FM",
+            "frequency": "87.1"
+        },
+        {
+            "id": 1,
+            "title": "Maximum FM",
+            "frequency": "142.2"
+        }
+    ]
+}
