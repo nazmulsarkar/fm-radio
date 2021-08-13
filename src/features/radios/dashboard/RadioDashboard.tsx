@@ -23,7 +23,7 @@ export default observer(function RadioDashboard() {
   }, [radioRegistry.size, loadRadios]);
 
   return (
-    <Container>
+    <Container style={{ marginTop: 90 }}>
       <Grid>
         <Grid.Column width="16">
           {radioStore.loadingInitial && !loadingNext ? (

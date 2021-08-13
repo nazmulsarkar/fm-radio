@@ -25,6 +25,14 @@ body {
   width: 100%;
 }
 
+.ui.segments:not(.horizontal)>.segment:first-child {
+  border-radius: 2.285714rem 2.285714rem 0 0;
+}
+
+.ui.segments:not(.horizontal)>.segment:last-child {
+  border-radius: 0 0 2.285714rem 2.285714rem;
+}
+
 /*home page styles*/
 
 .bg-color {
@@ -44,7 +52,7 @@ body {
 }
 
 .shadow {
-  box-shadow: 0 30px 26px 0 rgb(22 22 22 / 75%) !important;
+  box-shadow: 0 30px 16px 0 rgb(22 22 22) !important
 }
 
 .text-color {
@@ -75,7 +83,6 @@ body {
 }
 
 .text-uppercase {
-  font-weight: bold !important;
   text-transform: uppercase !important;
 }
 .masthead h1.ui.header {
@@ -90,7 +97,7 @@ body {
 }
 
 .font-size33 {
-  font-size: 8vw !important;
+  font-size: 32px;
 }
 
 .ui.segments > .segment {
@@ -106,16 +113,38 @@ body {
   margin: 0 1em !important;
 }
 
-.padding-0 {
-  padding: 0 !important;
+.padding-x0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .txt-playing {
-  font-size: 3.5vw;
-  letter-spacing: 2.5px;
-  color: #edad61;
-  text-transform: uppercase;
-  line-height: normal;
+  color: #edad61!important;
+}
+
+.mb-0 {
+  margin-bottom: 0!important;
+}
+
+.mt-0 {
+  margin-top: 0!important;
+}
+
+.height-120 {
+  height: 120px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.pad-y-12 {
+  padding-top: 12px!important;
+  padding-right: 12px!important;
 }
 
 /*end home page styles*/

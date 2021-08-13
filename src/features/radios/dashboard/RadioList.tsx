@@ -33,7 +33,7 @@ export default observer(function RadioList() {
     [setRadioList]
   );
 
-//   console.log("radios: ", radiosByDate);
+  //   console.log("radios: ", radiosByDate);
 
   useEffect(() => {
     console.log("envMock: ", isMock);
@@ -47,13 +47,13 @@ export default observer(function RadioList() {
   return (
     <>
       <Segment.Group className={"bg-content-color"}>
-        <Segment className={'bg-header-color'} inverted horizontal divider>
+        <Segment className={'bg-header-color'} inverted>
           <HeaderComponent></HeaderComponent>
         </Segment>
         {radioList.map((radio: Radio) => (
           <RadioListItem key={radio.id} radio={radio} />
         ))}
-        <Segment clearing className={'bg-footer-color shadow'} inverted horizontal divider>
+        <Segment clearing className={'bg-footer-color shadow'} inverted>
           <FooterComponent></FooterComponent>
         </Segment>
       </Segment.Group>
