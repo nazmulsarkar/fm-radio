@@ -23,11 +23,14 @@ export default observer(function RadioDashboard() {
   }, [radioRegistry.size, loadRadios]);
 
   return (
-    <Container style={{ marginTop: 90 }}>
+    <Container style={{ marginTop: 48 }}>
       <Grid>
         <Grid.Column width="16">
           {radioStore.loadingInitial && !loadingNext ? (
             <>
+              <RadioListItemPlaceholder />
+              <RadioListItemPlaceholder />
+              <RadioListItemPlaceholder />
               <RadioListItemPlaceholder />
               <RadioListItemPlaceholder />
             </>

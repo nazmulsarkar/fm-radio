@@ -1,7 +1,6 @@
 import React from 'react';
 import { observer } from 'mobx-react-lite';
 import { Container, Segment } from 'semantic-ui-react';
-import FooterComponent from '../footer/FooterComponent';
 
 export default observer(function HomePage() {
 
@@ -9,10 +8,7 @@ export default observer(function HomePage() {
         <div className='masthead bg-color'>
             <Container>
                 <Segment.Group className={'shadow'}>
-
-                    <Segment className={'bg-footer-color'}>
-                        <FooterComponent></FooterComponent>
-                    </Segment>
+                    <Segment className={'bg-footer-color'}></Segment>
                 </Segment.Group>
             </Container>
         </div>
