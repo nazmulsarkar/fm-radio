@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button, Grid, GridColumn, Header, Icon, Item, Segment } from "semantic-ui-react";
+import { Grid, GridColumn, Header, Segment } from "semantic-ui-react";
 import { Radio } from "../../../app/models/radio";
-import { format } from "date-fns";
 
 interface Props {
   radio: Radio;
